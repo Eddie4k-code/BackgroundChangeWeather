@@ -20,7 +20,7 @@ def main():
         ctypes.windll.user32.SystemParametersInfoW(20, 0, image, 0)
 
     response = requests.get(
-        f'https://api.openweathermap.org/data/2.5/weather?q={entry.get()}&appid=0d8d0d0d4527f01be88cc7d401a1f773')
+        f'https://api.openweathermap.org/data/2.5/weather?q={entry.get()}&appid={API KEY HERE }')
 
     weather_data = response.json()
 
