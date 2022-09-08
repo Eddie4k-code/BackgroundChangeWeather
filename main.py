@@ -13,9 +13,9 @@ from customtkinter import *
 
 def main():
     def change_wall(image): #Setting Paths to images we want to use.
-        img_cloud = r"C:\Users\edwar\PycharmProjects\Scripts\clouds.jpg"
-        img_sun = r"C:\Users\edwar\PycharmProjects\Scripts\sun.jpg"
-        img_rain = r"C:\Users\edwar\PycharmProjects\Scripts\rain.jpg"
+        img_cloud = r"" #Path to Cloud image goes here
+        img_sun = r""   #Path to Sun image goes here
+        img_rain = r""  #Path to Rain image goes here
 
         ctypes.windll.user32.SystemParametersInfoW(20, 0, image, 0)
 
