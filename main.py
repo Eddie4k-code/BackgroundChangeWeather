@@ -28,7 +28,8 @@ def main():
     weather_label['text'] = weather_status
 
 
-
+    #Just a few cases here, many could be added because of all of the different types of weather
+    #Another way to do this instead of doing (e.g - clouds, sun, rain) one could do temperatures instead.
     if 'cloud' in weather_status:
         change_wall(img_cloud)
     elif 'sun' or 'clear' in weather_status:
